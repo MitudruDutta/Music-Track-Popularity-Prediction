@@ -18,8 +18,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the data
-train_df = pd.read_csv('data/train.csv')  # Using the combined data instead
-test_df = pd.read_csv('data/test.csv')
+train_df = pd.read_csv('train.csv')  # Using the combined data instead
+test_df = pd.read_csv('test.csv')
 
 # Create copies to avoid modifying originals
 X_train = train_df.copy()

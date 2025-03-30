@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large data files (if you want to exclude them)
+# Uncomment the following line if you don't want to include the data folder
+# data/
+
+# Submission files (optional, you might want to include these)
+# submission.csv
+# ensemble_submission.csv
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
